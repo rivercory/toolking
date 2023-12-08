@@ -7,7 +7,7 @@ import List from "./pages/List";
 
 function App() {
     return (
-        <div>
+        <div className="relative">
             <div className="navbar bg-base-100 hidden md:block">
                 <div className="navbar-start">
                     <div className="dropdown">
