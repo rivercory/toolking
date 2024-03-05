@@ -8,7 +8,7 @@ import List from "./pages/List";
 function App() {
     return (
         <div>
-            <div className="w-auto navbar m-4 rounded-full border-2 bg-base-100 hidden md:block">
+            <div className="w-auto navbar bg-base-100 hidden md:block">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -27,9 +27,9 @@ function App() {
                             <li><a href="https://toolking.vercel.app">툴킹</a></li>
                         </ul>
                     </div>
-                    <Link to="/" className="btn btn-ghost text-2xl pretendard">
+                    <Link to="/" className="btn btn-ghost text-2xl suit">
                         <img src="./icons/toolking_transparent.svg" width="32" height="32" />
-                        툴킹
+                        Toolking
                     </Link>
                 </div>
                 <div className="navbar-end">
